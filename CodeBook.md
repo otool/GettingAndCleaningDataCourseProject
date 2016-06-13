@@ -28,5 +28,5 @@
     + Renames the values in the variable column of the summarized melted data by adding "AVG." to the beginning of each value using paste0()
     + Converts the summarized melted data back into wide format using dcast()
     + Returns the tidy, summarized, wide-format data set as a data frame object
-5. The returned data set can then be written to file using write.csv().
+5. The returned data set can then be written to file using write.csv() or write.table(), using row.names=FALSE.
 
